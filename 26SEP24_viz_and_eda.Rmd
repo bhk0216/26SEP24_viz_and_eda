@@ -163,7 +163,7 @@ ggplot(weather_df, aes(x = name, y = tmax)) +
   * <1: ridges are compressed vertically, which reduces the overlap between them.
   * >1: would increase the height of the ridges and cause more overlap.
 
-```{r}
+```{r warning = FALSE}
 ggplot(weather_df, aes(x = tmax, y = name)) + 
   geom_density_ridges(scale = .85)
 ```

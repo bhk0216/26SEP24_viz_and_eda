@@ -255,9 +255,6 @@ ggplot(weather_df, aes(x = tmax, y = name)) +
 
     ## Picking joint bandwidth of 1.54
 
-    ## Warning: Removed 17 rows containing non-finite outside the scale range
-    ## (`stat_density_ridges()`).
-
 <img src="26SEP24_viz_and_eda_files/figure-gfm/unnamed-chunk-14-1.png" width="90%" />
 
 #### Learning Assessment
